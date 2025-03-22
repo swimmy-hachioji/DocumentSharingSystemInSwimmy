@@ -40,3 +40,16 @@ DSSS
   - \_\_init__.py
   - Definition.py
   - Structure.py
+
+
+# Schedule
+- [ ] 1.HumanInterface Skeleton
+- [ ] 2.Console HumanInterface
+- [ ] 3.DataInterface Skeleton
+- [ ] 4.DataInterface
+- [ ] 5.DriveInterface Skeleton
+- [ ] 6.DriveInterface
+- [ ] 7.Application Structure
+- [ ] 8.Pygame HumanInterface
+- [ ] 9.Builtin
+- [ ] 10.Script
