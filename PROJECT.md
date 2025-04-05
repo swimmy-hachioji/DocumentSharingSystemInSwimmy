@@ -22,21 +22,18 @@ DSSS
   - Data
     - \_\_init__.py
     - Definition.py
-    - Skeleton.py
-    - Setting.py
     - Structure.py
+    - Setting.py
   - Drive
     - \_\_init__.py
     - Definition.py
-    - Skeleton.py
-    - Setting.py
     - Structure.py
+    - Setting.py
   - Human
     - \_\_init__.py
     - Definition.py
-    - Skeleton.py
-    - Setting.py
     - Structure.py
+    - Setting.py
 
 
 - Application
