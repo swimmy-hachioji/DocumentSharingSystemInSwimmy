@@ -22,29 +22,33 @@ DSSS
   - Data
     - \_\_init__.py
     - Definition.py
-    - Structure.py
     - Skeleton.py
+    - Setting.py
+    - Structure.py
   - Drive
     - \_\_init__.py
     - Definition.py
-    - Structure.py
     - Skeleton.py
+    - Setting.py
+    - Structure.py
   - Human
     - \_\_init__.py
     - Definition.py
-    - Structure.py
     - Skeleton.py
+    - Setting.py
+    - Structure.py
 
 
 - Application
   - \_\_init__.py
   - Definition.py
+  - Setting.py
   - Structure.py
 
 
 # Schedule
 - [ ] 1.HumanInterface Skeleton
-- [ ] 2.Console HumanInterface
+- [ ] ~~2.Console HumanInterface~~
 - [ ] 3.DataInterface Skeleton
 - [ ] 4.DataInterface
 - [ ] 5.DriveInterface Skeleton
