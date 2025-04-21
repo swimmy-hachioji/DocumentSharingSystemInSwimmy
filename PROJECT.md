@@ -8,8 +8,10 @@ SwimmyProject No.1: DocumentSharingSystemInSwimmy(DSSS)
 
 DSSS
 
+
 - \_\_init__.py
-- Definition.py
+
+
 - Builtin.py
 
 
@@ -18,42 +20,46 @@ DSSS
   - Run.py
 
 
-- Interface
-  - Data
-    - \_\_init__.py
-    - Definition.py
-    - Structure.py
-    - Setting.py
-    - Builtin.py
-  - Drive
-    - \_\_init__.py
-    - Definition.py
-    - Structure.py
-    - Setting.py
-    - Builtin.py
-  - Human
-    - \_\_init__.py
-    - Definition.py
-    - Structure.py
-    - Setting.py
-    - Builtin.py
-
-
 - Application
   - \_\_init__.py
   - Definition.py
-  - Setting.py
   - Structure.py
+  - BuiltinSetting.py
+  - Builtin.py
+
+
+- Drive
+  - \_\_init__.py
+  - Definition.py
+  - Structure.py
+  - BuiltinSetting.py
+  - Builtin.py
+
+
+- FileSystem
+  - \_\_init__.py
+  - Definition.py
+  - Structure.py
+  - BuiltinSetting.py
+  - Builtin.py
+
+
+- HumanInterface
+  - \_\_init__.py
+  - Definition.py
+  - Structure.py
+  - BuiltinSetting.py
+  - Builtin.py
 
 
 # Schedule
-- [ ] 1.HumanInterface Skeleton
-- [ ] ~~2.Console HumanInterface~~
-- [ ] 3.DataInterface Skeleton
-- [ ] 4.DataInterface
-- [ ] 5.DriveInterface Skeleton
-- [ ] 6.DriveInterface
-- [ ] 7.Application Structure
+- [ ] 1.HumanInterface Structure
+- [ ] 2.DriveInterface Structure
+- [ ] 3.DriveInterface
+- [ ] 4.DataInterface Structure
+- [ ] 5.DataInterface
+- [ ] 6.Application Structure
+- [ ] 7.HumanInterface Structure
 - [ ] 8.Pygame HumanInterface
 - [ ] 9.Builtin
 - [ ] 10.Script
