@@ -26,17 +26,20 @@ DSSS
 DSSS core system
   - \_\_init__.py  
   - Setting.py  
-  - MainProcess.py  
+  - Main.py  
 
 - HumanIO  
 Human interface packages
   - \_\_init__.py  
-  - Structure.py
+  - Structure
+    - \_\_init__.py
+    - Event.py
+    - Main.py
   - Pygame  
   Use pygame library I/O
     - \_\_init__.py  
     - Setting.py  
-    - MainProcess.py  
+    - Main.py  
 
 - FileIO  
 File control packages
@@ -45,7 +48,7 @@ File control packages
   Local file system package
     - \_\_init__.py  
     - Setting.py  
-    - MainProcess.py  
+    - Main.py  
   - GoogleDrive  
   Google drive file package
     - \_\_init__.py
