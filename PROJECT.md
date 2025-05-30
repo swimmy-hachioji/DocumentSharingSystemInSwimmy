@@ -2,64 +2,49 @@
 SwimmyProject No.1: DocumentSharingSystemInSwimmy(DSSS)
 
 
+## Objective
+このプロジェクトはSwimmyの共有業務を効率化することを目的としています。
 
-# Structure
+2025/05/30：
+- 生徒名と授業時間から自動的に共有業務を進行する。
+
+## Requirement
+- 生徒名と授業時間から、対象データフォルダ内の該当のデータを抽出
+- 該当データを適当なGoogleDrive共有フォルダへUpload
+
+## Design
+
+### Structure
 
 
-DSSS
+DSSS  
+共有業務効率化ライブラリ
 
-
-- \_\_init__.py
-
-
-- Builtin.py
-
-
-- Script
-  - \_\_init__.py
-  - Run.py
-
+- \_\_init__.py  
 
 - Application
-  - \_\_init__.py
-  - Definition.py
-  - Structure.py
-  - BuiltinSetting.py
-  - Builtin.py
+DSSS core system
+  - \_\_init__.py  
+  - Setting.py  
+  - MainProcess.py  
 
+- HumanIO  
+Human interface packages
+  - \_\_init__.py  
+  - Pygame  
+  Use pygame library I/O
+    - \_\_init__.py  
+    - Setting.py  
+    - MainProcess.py  
 
-- Drive
-  - \_\_init__.py
-  - Definition.py
-  - Structure.py
-  - BuiltinSetting.py
-  - Builtin.py
-
-
-- FileSystem
-  - \_\_init__.py
-  - Definition.py
-  - Structure.py
-  - BuiltinSetting.py
-  - Builtin.py
-
-
-- HumanInterface
-  - \_\_init__.py
-  - Definition.py
-  - Structure.py
-  - BuiltinSetting.py
-  - Builtin.py
-
-
-# Schedule
-- [ ] 1.HumanInterface Structure
-- [ ] 2.DriveInterface Structure
-- [ ] 3.DriveInterface
-- [ ] 4.DataInterface Structure
-- [ ] 5.DataInterface
-- [ ] 6.Application Structure
-- [ ] 7.HumanInterface Structure
-- [ ] 8.Pygame HumanInterface
-- [ ] 9.Builtin
-- [ ] 10.Script
+- FileIO  
+File control packages
+  - \_\_init__.py  
+  - Local
+  Local file system package
+    - \_\_init__.py  
+    - Setting.py  
+    - MainProcess.py  
+  - GoogleDrive  
+  Google drive file package
+    - \_\_init__.py
