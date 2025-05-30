@@ -31,6 +31,7 @@ DSSS core system
 - HumanIO  
 Human interface packages
   - \_\_init__.py  
+  - Structure.py
   - Pygame  
   Use pygame library I/O
     - \_\_init__.py  
