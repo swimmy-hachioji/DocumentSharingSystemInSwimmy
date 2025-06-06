@@ -13,10 +13,10 @@ license = {file='LICENSE'}
 
 requires-python = '>=3.11'
 dependencies = [
-   "pygame",
-   "google-api-python-client",
-   "google-auth-httplib2",
-   "google-auth-oauthlib",
+#   "pygame",
+#   "google-api-python-client",
+#   "google-auth-httplib2",
+#   "google-auth-oauthlib",
 ]
 
 authors = [

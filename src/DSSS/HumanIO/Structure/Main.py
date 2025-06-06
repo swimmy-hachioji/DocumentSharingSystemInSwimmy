@@ -11,6 +11,8 @@ DSSSが利用する全てのHuman interface classは、ここで定義される[
 
 from abc import ABC, abstractmethod
 
+from . import Event
+
 
 """
     HumanIO
@@ -32,9 +34,9 @@ class Structure(ABC):
         return
 
     """ Event """
-    __events: list[]
+    __events: list[Event.EventStructure]
     @property
-    def events(self) -> tuple[]:
+    def events(self) -> tuple[Event.EventStructure]:
 
     """ Execute """
 
